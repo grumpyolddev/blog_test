@@ -1,0 +1,27 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body { 
+  padding-top: 70px; 
+}
+
+.navbar-btn {
+  margin-left: 30px;
+}
+
+.navbar{
+  li{
+    margin-left: 15px;
+  }
+}
+
+.footer{
+  margin-top: 15px;
+}
+
+
+@media (min-width: 1600px){
+  .container {
+    width: 1565px;
+  }
+}
